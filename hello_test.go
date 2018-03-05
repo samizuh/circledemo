@@ -6,7 +6,7 @@ import (
   
 func TestUpper(t *testing.T) {
 	incoming := "Test String"
-	expected := "TEST STRINGx"
+	expected := "TEST STRING"
 	actual := ToUpper(incoming)
   
 	if actual != expected {
