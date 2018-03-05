@@ -8,9 +8,9 @@ import (
 
 func main() {
 	args := strings.Join(os.Args[1:]," ")
-	fmt.Println(toUpper(args))
+	fmt.Println(ToUpper(args))
 }
 
-func toUpper(s string) (u string) {
+func ToUpper(s string) (u string) {
 	return strings.ToUpper(s)
 }

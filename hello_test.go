@@ -4,10 +4,10 @@ import (
 	"testing"
 )
   
-func TestSum(t *testing.T) {
+func TestUpper(t *testing.T) {
 	incoming := "Test String"
 	expected := "TEST STRING"
-	actual := toUpper(incoming)
+	actual := ToUpper(incoming)
   
 	if actual != expected {
 	  t.Errorf("Expected the string of %s to be %s but instead got %s!", incoming, expected, actual)
